@@ -1,3 +1,6 @@
+#!bin/bash
+
+
 print()
 {
 i=0
@@ -118,3 +121,5 @@ special=`ls -l|grep -v ^[d,-]|wc -l`
 echo "the number of elements : `expr $file + $directory + $special - 1`"
 
 print
+
+echo "변경함"
